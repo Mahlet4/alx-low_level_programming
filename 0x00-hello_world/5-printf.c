@@ -1,11 +1,11 @@
 #include<stdio.h>
 /**
- * main- print using printf
+ * main- Prints "with proper grammar, but the outcome is a piece of art,"followed by a new line.
  *
- * return : 0
+ * Return : Always 0.
  */
 int main(void)
 {
-printf("with proper grammar, but the outcome is a piece of art, ");
+printf("with proper grammar, but the outcome is a piece of art,\n");
 return (0);
 }
