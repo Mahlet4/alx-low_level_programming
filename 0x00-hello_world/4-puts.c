@@ -1,7 +1,7 @@
 #include<stdio.h>
 /**
- * pritnt "Programming is like building a multilingual puzzle using puts func
- *
+ * main - pritnt "Programming is like building a multilingual puzzle using puts func
+ * Return: Always 0.
  */
 int main(void)
 {
