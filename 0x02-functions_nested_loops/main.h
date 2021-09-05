@@ -1,5 +1,5 @@
 #ifndef MAIN_H
-#define MAIN_H
+                                                                     #define MAIN_H
 #include <unistd.h>
 /**
  * _putchr - writes the character c to stdout
@@ -11,4 +11,5 @@
 int _putchar(char c);
 void print_alphabet(void);
 void print_alphabet_x10(void);
+int _islower(int c);
 #endif
