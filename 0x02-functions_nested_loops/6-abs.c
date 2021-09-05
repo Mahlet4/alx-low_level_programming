@@ -8,10 +8,10 @@ int n;
 if (n <= 0)
 {
 n = n * -1;
-_putchar('%d', n);
+return (n);
 }
-else (n > 0)
+else
 {
-_putchar('%d', n);
+return (n);
 }
 }
