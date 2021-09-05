@@ -20,10 +20,9 @@ _putchar(n + '0');
 _putchar(x + '0');
 }
 _putchar(':');
-int y,z;
-for (y = 0; y <= 5; y++)
+for (int y = 0; y <= 5; y++)
 {
-for (z = 0; z <= 10; z++)
+for (int z = 0; z <= 10; z++)
 {
 if (z == 10)
 {
