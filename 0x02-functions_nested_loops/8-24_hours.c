@@ -21,6 +21,7 @@ _putchar(n + '0');
 _putchar(x + '0');
 }
 _putchar(':');
+}
 for (y = 0; y <= 5; y++)
 {
 for (z = 0; z <= 10; z++)
@@ -35,9 +36,7 @@ else
 _putchar(y + '0');
 _putchar(z + '0');
 }
-_putchar(':');
 _putchar('\n');
-}
 }
 }
 }
