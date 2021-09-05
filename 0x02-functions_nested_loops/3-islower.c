@@ -3,7 +3,7 @@
  * _islower- checks for lower case character.
  *
  */
-int _islower(inc c);
+int _islower(int c);
 {
 if (c >= 'a' && c <= 'z')
 {
