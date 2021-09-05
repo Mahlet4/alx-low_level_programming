@@ -21,7 +21,7 @@ else
 {
 _putchar((p / 10) + '0');
 }
-_putchar((p % 10 + '0');
+_putchar((p % 10) + '0');
 }
 _putchar('\n');
 }
