@@ -4,7 +4,7 @@
  */
 void jack_bauer(void)
 {
-int n,x,y,z;
+int n,x;
 for (n = 0; n <= 2; n++)
 {
 for (x=0; x <= 10; x++)
@@ -19,7 +19,8 @@ else
 _putchar(n + '0');
 _putchar(x + '0');
 }
-_putchar(':')
+_putchar(':');
+int y,z;
 for (y = 0; y <= 5; y++)
 {
 for (z = 0; z <= 10; z++)
