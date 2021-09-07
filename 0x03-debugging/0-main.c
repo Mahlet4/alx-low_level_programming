@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * main - tests the function
- * Return:0
- */
+* main - tests the function
+* Return: 0
+*/
 int main(void)
 {
 int i;
