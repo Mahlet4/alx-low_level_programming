@@ -14,8 +14,7 @@ n++;
 }
 for (i = 0; src[i] != 0; i++)
 {
-dest[n - 1] = src[i];
-n++;
+dest[n] = src[i];
 }
 dest[n] = '\0';
 return (dest);
