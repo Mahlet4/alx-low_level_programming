@@ -7,16 +7,16 @@
  */
 char *_strcat(char *dest, char *src)
 {
-int dlen = 0, i;
-while (dest[dlen])
+int n = 0, i;
+while (dest[n])
 {
-dlen++;
+n++;
 }
 for (i = 0; src[i] != 0; i++)
 {
-dest[dlen] = src[i];
-dlen++;
+dest[n] = src[i];
+n++;
 }
-dest[dlen] = '\0';
+dest[n] = '\0';
 return (dest);
 }
