@@ -19,5 +19,3 @@ leng++;
 }
 return (dest);
 }
-
-
