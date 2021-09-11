@@ -12,9 +12,9 @@ if (x > 9)
 {
 _putchar(1 + '0');
 }
-_putchar(x + '0');
+_putchar(x % 10 + '0');
 }
+ _putchar('\n');
 }
-_putchar('\n');
 }
  
