@@ -23,6 +23,7 @@ while (z <= x)
 _putchar('#');
 z++;
 }
+_putchar('\n');
 }
 _putchar('\n');
 }
