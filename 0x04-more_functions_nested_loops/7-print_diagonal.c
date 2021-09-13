@@ -19,9 +19,9 @@ while (line[i])
 {
 x++;
 }
-line[x] = ' ';
+line[x] = " ";
 int y = x - 1;
-line[x - 1] = '\';
+line[x - 1] = "92";
 _putchar(line[x]);
 _putchar('\n');
 }
