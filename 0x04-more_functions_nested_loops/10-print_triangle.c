@@ -12,13 +12,12 @@ for (i = 0; i < size; i++)
 {
 for (x = 1; x <= size; x++)
 {
-int y = x;
+int y = x, z = 1;
 while (size - y != 0)
 {
 _putchar(' ');
 y++;
 }
-int z = 1;
 while (z <= x)
 {
 _putchar('#');
