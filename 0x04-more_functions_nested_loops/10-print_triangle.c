@@ -21,7 +21,7 @@ while (z <= x)
 _putchar('#');
 z++;
 }
-if (x == 10)
+if (x == size)
 {
 continue;
 }
