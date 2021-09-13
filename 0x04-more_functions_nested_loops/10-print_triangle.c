@@ -21,6 +21,10 @@ while (z <= x)
 _putchar('#');
 z++;
 }
+if (x == 10)
+{
+continue;
+}
 _putchar('\n');
 }
 }
