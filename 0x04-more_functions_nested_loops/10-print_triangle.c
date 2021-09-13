@@ -15,13 +15,13 @@ for (x = 1; x <= size; x++)
 int y = x;
 while (size - y != 0)
 {
-_putchar(" ");
+_putchar(' ');
 y++;
 }
 int z = 1;
 while (z <= x)
 {
-_putchar("#");
+_putchar('#');
 z++;
 }
 }
