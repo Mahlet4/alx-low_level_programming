@@ -6,7 +6,7 @@
 void print_diagonal(int n)
 {
 int i;
-char line[i];
+char line[];
 if (n == 0 && n < 0)
 {
 _putchar('\n');
@@ -14,14 +14,17 @@ _putchar('\n');
 else{
 for (i = 0; i < n; i++)
 {
-int x;
+int x = 0;
 while (line[i])
 {
 x++;
 }
-line[x] = " ";
-int y = x - 1;
 line[x - 1] = "92";
+while (x >= 0)
+{
+line[x] = " ";
+x--;
+}
 _putchar(line[x]);
 _putchar('\n');
 }
