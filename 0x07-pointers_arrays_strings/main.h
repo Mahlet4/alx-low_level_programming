@@ -1,4 +1,4 @@
 #ifndef MAIN_H
 #define MAIN_H
-void *_memset(void *s, int c, size_t n);
+void *_memset(char *s, char b, unsigned int n);
 #endif
