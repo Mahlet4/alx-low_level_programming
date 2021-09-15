@@ -15,11 +15,9 @@ for (x = 0; x <= n; x++)
 if (i * x <= 9)
 {
 _putchar((i * x) + '0');
-while(y < 3)
-{
 _putchar(' ');
-y++;
-}
+_putchar(' ');
+_putchar(' ');
 }
 else if (i * x < 100)
 {
