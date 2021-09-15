@@ -47,7 +47,7 @@ _putchar(' ');
 else
 {
 _putchar(',');
-_putcahr(' ');
+_putchar(' ');
 }
 }
 _putchar('\n');
