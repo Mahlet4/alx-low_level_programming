@@ -14,11 +14,14 @@ for (x = 0; x <= n; x++)
 {
 if (i * x <= 9)
 {
+_putchar(' ');
+_putchar(' ');
 _putchar((i * x) + '0');
 }
 else if (i * x < 100)
 {
-_putchar((i * x / 10 ) % 10 + '0');
+_putchar(' ');
+_putchar((i * x / 10) % 10 + '0');
 _putchar((i * x) % 10 + '0');
 }
 else
@@ -32,8 +35,6 @@ if (x == n)
 continue;
 }
 _putchar(',');
-_putchar(' ');
-_putchar(' ');
 _putchar(' ');
 }
 _putchar('\n');
