@@ -16,9 +16,15 @@ if (i * x <= 9)
 {
 _putchar((i * x) + '0');
 }
-else
+else if (i * x < 100)
 {
 _putchar((i * x / 10 ) % 10 + '0');
+_putchar((i * x) % 10 + '0');
+}
+else
+{
+_putchar((i * x / 100) % 10 + '0');
+_putchar((i * x / 10) % 10 + '0');
 _putchar((i * x) % 10 + '0');
 }
 if (x == n)
@@ -26,6 +32,7 @@ if (x == n)
 continue;
 }
 _putchar(',');
+_putchar(' ');
 _putchar(' ');
 _putchar(' ');
 }
