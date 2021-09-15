@@ -18,7 +18,7 @@ _putchar((i * x) + '0');
 }
 else
 {
-_putchar(1 + '0');
+_putchar((i * x / 10 ) % 10 + '0');
 _putchar((i * x) % 10 + '0');
 }
 if (x == n)
@@ -26,6 +26,7 @@ if (x == n)
 continue;
 }
 _putchar(',');
+_putchar(' ');
 _putchar(' ');
 }
 _putchar('\n');
