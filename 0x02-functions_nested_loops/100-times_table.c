@@ -15,27 +15,34 @@ for (x = 0; x <= n; x++)
 if (i * x <= 9)
 {
 _putchar((i * x) + '0');
-_putchar(',');
-_putchar(' ');
-_putchar(' ');
-_putchar(' ');
 }
 else if (i * x < 100)
 {
 _putchar((i * x / 10) % 10 + '0');
 _putchar((i * x) % 10 + '0');
-_putchar(',');
-_putchar(' ');
-_putchar(' ');
 }
 else
 {
 _putchar((i * x / 100) % 10 + '0');
 _putchar((i * x / 10) % 10 + '0');
 _putchar((i * x) % 10 + '0');
+}
+if (x == n)
+{
+continue;
+}
 _putchar(',');
 _putchar(' ');
+if (i * x > 100)
+{
+continue;
 }
+_putchar(' ');
+if (i * x > 10)
+{
+continue;
+}
+_putchar(' ');
 }
 _putchar('\n');
 }
