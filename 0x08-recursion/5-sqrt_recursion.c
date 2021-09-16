@@ -3,9 +3,7 @@
  * _sqrt_recursion- returns the square root of a number
  * @n: the number to calculate the square root of
  * Return: the final answer
- */
-/**
- * _sqrt- calculates the square root of a number 
+ * _sqrt - calculates the square root of a number
  * @num: the number to find the square root of
  * @y: number to test
  * Return: returns the square root of a number
