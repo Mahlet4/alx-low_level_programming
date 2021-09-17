@@ -4,6 +4,7 @@
 * @n: the number to be checked
 * Return: 1 if the number is prime number, 0 otherwise
 */
+int _count(int num, int count, int x);
 int is_prime_number(int n)
 {
 int count = 0;
@@ -16,14 +17,14 @@ return (_count(n, count, x);
 * @count: checks if a number is prime or not
 * @x: counts if a number is only divisible by 1 and itself
 */
-int _count(int n, int count, int x)
+int _count(int num, int count, int x)
 {
-if (x <= n)
+if (x <= num)
 {
-if (n % x == 0)
+if (num % x == 0)
 {
 count++;
-if (count == 2 && x == n)
+if (count == 2 && x == num)
 {
 return (1);
 }
@@ -33,5 +34,5 @@ return (0);
 }
 }
 }
-return (_count(n, count, x + 1);
+return (_count(num, count, x + 1);
 }
