@@ -1,4 +1,5 @@
 #include "main.h"
+int _count(int num, int count, int x);
 /**
 * is_prime_number- returns 1 is a number is a prime number
 * @n: the number to be checked
@@ -7,7 +8,6 @@
 * @x: counts
 * Return: 1 if the number is prime number, 0 otherwise
 */
-int _count(int num, int count, int x);
 int is_prime_number(int n)
 {
 int count = 0;
