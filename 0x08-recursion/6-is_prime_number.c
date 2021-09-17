@@ -19,6 +19,7 @@ return (_count(n, count, x));
 * @num: the number to be checked
 * @count: checks if a number is prime or not
 * @x: counts if a number is only divisible by 1 and itself
+* Return: 1 if prime, 0 otherwise
 */
 int _count(int num, int count, int x)
 {
