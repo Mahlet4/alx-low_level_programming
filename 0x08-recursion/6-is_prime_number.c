@@ -9,7 +9,7 @@ int is_prime_number(int n)
 {
 int count = 0;
 int x = 1;
-return (_count(n, count, x);
+ return (_count(n, count, x));
 }
 /**
 * _count- checks if a number is prime numbr or not
@@ -34,5 +34,5 @@ return (0);
 }
 }
 }
-return (_count(num, count, x + 1);
+ return (_count(num, count, x + 1));
 }
