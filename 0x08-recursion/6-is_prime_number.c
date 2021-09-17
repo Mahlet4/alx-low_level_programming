@@ -3,9 +3,6 @@ int _count(int num, int count, int x);
 /**
 * is_prime_number- returns 1 is a number is a prime number
 * @n: the number to be checked
-* @num: the number to check
-* @count: checks if a number is prime or not
-* @x: counts
 * Return: 1 if the number is prime number, 0 otherwise
 */
 int is_prime_number(int n)
