@@ -3,7 +3,7 @@
 #include <stdlib.h>
 /**
  * malloc_checked - Allocates memory
- * @c: the size to allocate
+ * @b: the size to allocate
  * Return: pointer to the allocated memory
  */
 void *malloc_checked(unsigned int b)
