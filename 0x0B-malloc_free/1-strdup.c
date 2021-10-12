@@ -2,7 +2,7 @@
 #include <stdlib.h>
 /**
  * _strdup- returns a porinter to a memory
- *          which contains a copy of the 
+ *          which contains a copy of the
  *          string given as a parameter
  * @str: the string to be copied
  * Return:NULL if str = NULL or if memory is insufficient
@@ -21,7 +21,7 @@ while (str[x] != '\0')
 {
 x++;
 }
-string = malloc(sizeof(char) * x);
+string = malloc(sizeof(char) * (x + 1));
 if (string == NULL)
 {
 return (NULL);
