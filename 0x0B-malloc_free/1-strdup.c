@@ -17,18 +17,18 @@ if (str == NULL)
 {
 return (NULL);
 }
-while (*str != '\0')
+while (str[x] != '\0')
 {
 x++;
 }
-string = malloc(sizeof(*str) * x);
+string = malloc(sizeof(char) * x);
 if (string == NULL)
 {
 return (NULL);
 }
 for (i = 0; str[i]; i++)
 {
-string[i] = str [i];
+string[i] = str[i];
 }
 string[x] = '\0';
 return (string);
