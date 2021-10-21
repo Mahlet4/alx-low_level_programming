@@ -20,11 +20,11 @@ else if (s2 == NULL)
 {
 s2 = "";
 }
-while (s1 != '\0')
+while (*s1 != '\0')
 {
 len1++;
 }
-while (s2 != '\0')
+while (*s2 != '\0')
 {
 len2++;
 }
