@@ -1,6 +1,6 @@
 #include "main.h"
 #include <stdlib.h>
-#inlcude <stdio.h>
+#include <stdio.h>
 /**
  * str_concat: concatenates two strings
  * @s1: the first string
@@ -12,11 +12,11 @@ char *str_concat(char *s1, char *s2)
 {
 int len1 = 0, len2 = 0, i, j;
 char *string;
-if (s1 = NULL)
+if (s1 == NULL)
 {
 s1 = "";
 }
-else if (s2 = NULL)
+else if (s2 == NULL)
 {
 s2 = "";
 }
