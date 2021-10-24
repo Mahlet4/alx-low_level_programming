@@ -36,7 +36,7 @@ string[i] = s1[i];
 i++;
 }
 j = 0;
-while (i < len1 + len2)
+while (i < (len1 + len2))
 {
 string[i] = s2[j];
 i++;
