@@ -37,7 +37,7 @@ for (z = 0; z < height; z++)
 {
 for (w = 0; w < width; w++)
 {
-a[z]a[w] = 0;
+a[w] = 0;
 }
 }
 return(a);
