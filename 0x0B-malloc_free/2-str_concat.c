@@ -28,7 +28,7 @@ while (*s2 != '\0')
 {
 len2++;
 }
-string = malloc(len1 + len2 +1);
+ string = malloc((sizeof(char)*(len1 + len2) + 1);
 i = 0;
 while (i < len1)
 {
