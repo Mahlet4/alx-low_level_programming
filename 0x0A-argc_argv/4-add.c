@@ -11,13 +11,13 @@ int main(int argc, char *argv[])
 int  digit, i, sum = 0, x = 0;
 for (i = 1; i < argc; i++)
 {
-for (digit = 0; argv[num][digit]; digit ++)
+for (digit = 0; argv[i][digit]; digit ++)
 {
 if (argv[i][digit] < '0' && argv[i][digit] > '9')
 {
 x++;
 }
-    }
+}
 }
 if (x == (argc - 1))
 {
