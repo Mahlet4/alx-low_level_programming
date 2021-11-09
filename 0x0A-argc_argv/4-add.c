@@ -11,10 +11,13 @@ int main(int argc, char *argv[])
 int i, sum = 0, x = 0;
 for (i = 1; i < argc; i++)
 {
-if (atoi(argv[i]) >= 'a' && atoi(argv[i]) <= 'z')
+for (digit = 0; argv[num][digit]; digit ++)
+{
+if (argv[i][digit] < '0' && argv[i][digit] > '9')
 {
 x++;
 }
+    }
 }
 if (x == (argc - 1))
 {
