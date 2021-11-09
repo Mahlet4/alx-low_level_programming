@@ -11,10 +11,12 @@ int main(int argc, char *argv[])
 int  digit, i, sum = 0, x = 0;
 for (i = 1; i < argc; i++)
 {
-for (digit = 0; argv[i][digit]; digit ++)
+for (digit = 0; argv[i][digit]; digit++)
 {
-if (argv[i][digit] < '0' && argv[i][digit] > '9')
+if (argv[i][digit] < '0' || argv[i][digit] > '9')
 {
+printf("Error\n");
+return (1);
 x++;
 }
 }
@@ -22,11 +24,6 @@ x++;
 if (x == (argc - 1))
 {
 printf("0\n");
-}
-else if (x > 0 && x < (argc - 1))
-{
-printf("Error\n");
-return (1);
 }
 else if (x == 0)
 {
