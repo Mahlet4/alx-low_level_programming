@@ -11,7 +11,7 @@ int main(int argc, char *argv[])
 int i, sum = 0, x = 0;
 for (i = 1; i < argc; i++)
 {
-  if (argv[i] >= 'a' && argv[i] <= 'z')
+if (atoi(argv[i]) >= 'a' && atoi(argv[i]) <= 'z')
 {
 x++;
 }
