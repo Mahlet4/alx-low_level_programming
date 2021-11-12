@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 int _strlen(char *str);
-char *_strcopy(char *dest, char *src);
+char *_strcopy(char *src);
 /**
  * _strlen - Finds the length of a string.
  * @str: The string to be measured.
