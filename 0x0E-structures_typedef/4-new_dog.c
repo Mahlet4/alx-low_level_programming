@@ -30,7 +30,8 @@ int _strlen(char *str)
 char *_strcopy(char *src)
 {
 	int index = 0;
-	char dest[];
+	char *dest;
+	dest = malloc(sizeof(char) * (_strlen(src) + 1));
 
 	for (index = 0; src[index]; index++)
 		dest[index] = src[index];
