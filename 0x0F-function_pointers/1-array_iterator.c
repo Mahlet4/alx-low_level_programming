@@ -14,9 +14,10 @@ if (array == NULL || action == NULL)
 {
 return;
 }
-size_t i;
-for (i = 0; i < size; i++)
+while (size > 0)
 {
-action(array[i]);
+action(*array);
+size--;
+array++;
 }
 }
